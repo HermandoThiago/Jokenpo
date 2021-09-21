@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div img{
+    max-width: 40%;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    opacity: 0.3;
+    transition: 0.8s;
+}
+
+img:hover{
+    opacity: 0.7;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.324);
+}

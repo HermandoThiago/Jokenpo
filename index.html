@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="icon/game.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Pedra, papel ou tesoura!</title>
+</head>
+<body class="bg-gray-300">
+    
+    <header class="w-full text-center font-mono bg-gray-800 text-white py-4 text-xl italic">
+        <h1>Pedra, Papel ou Tesoura!</h1>
+    </header>
+
+    
+        <div id="resultado" class="font-mono bg-gray-200 py-3 text-xl italic font-bold text-center">
+            <h2>Resultado:</h2>
+        </div>
+
+            <div id="game" class="flex w-5/6 lg:w-4/6 xl:w-1/2 mx-auto my-10 bg-gray-900 p-8 shadow-2xl rounded-2xl">
+                <div class="player-option w-1/2 mx-auto shadow-2xl rounded-2xl mx-auto">
+                    <img opt="pedra" src="imagens/rock.png" alt="">
+                    <img opt="papel" src="imagens/paper.png" alt="">
+                    <img opt="tesoura" src="imagens/scisor.png" alt="">
+                </div>
+                <div class="enemy-option w-1/2 mx-auto shadow-2xl rounded-2xl">
+                    <img opt="pedra" src="imagens/rock.png" alt="">
+                    <img opt="papel" src="imagens/paper.png" alt="">
+                    <img opt="tesoura" src="imagens/scisor.png" alt="">
+                </div>
+            </div>
+            
+        <footer class="w-full py-3 text-center bg-gray-800 text-white italic font-mono font-bold">
+            <h2>App desenvolvido por <span class="text-gray-400">Hermando Thiago</span></h2>
+        </footer>
+       
+  
+    <script src="script.js"></script>
+</body>
+</html>
