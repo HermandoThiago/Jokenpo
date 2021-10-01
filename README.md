@@ -15,4 +15,4 @@ Um pouco do projeto:
     <img align="center" alt="Hermando-tailwind" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
 </div>
 
-## Viste a página do Github-page do projeto: https://hermandothiago.github.io/Jokenpo/
+#### Viste a página do Github-page do projeto: https://hermandothiago.github.io/Jokenpo/
